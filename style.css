@@ -1,0 +1,14 @@
+.hidden {
+  display: none;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(0, 0, 6);
+  background-size: cover;
+}
